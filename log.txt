@@ -1,0 +1,4 @@
+Welcome, graemesoftley!
+Today is: Sun  4 May 2025 12:06:20 BST
+System uptime:
+12:06  up 47 days, 12:05, 2 users, load averages: 1.22 1.33 1.46
