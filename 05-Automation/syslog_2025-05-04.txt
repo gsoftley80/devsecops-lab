@@ -1,0 +1,28 @@
+System log on: Sun  4 May 2025 13:16:35 BST
+
+Disk Usage:
+Filesystem        Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s1s1   228Gi    12Gi    28Gi    31%    404k  296M    0%   /
+devfs            196Ki   196Ki     0Bi   100%     678     0  100%   /dev
+/dev/disk3s6     228Gi   2.0Gi    28Gi     7%       2  296M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi    11Gi    28Gi    29%    1.5k  296M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   648Mi    28Gi     3%     317  296M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   482Mi     2%       1  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   6.2Mi   482Mi     2%      37  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   924Ki   482Mi     1%      87  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   172Gi    28Gi    86%    829k  296M    0%   /System/Volumes/Data
+map auto_home      0Bi     0Bi     0Bi   100%       0     0     -   /System/Volumes/Data/home
+/dev/disk2s1     5.0Gi   1.7Gi   3.3Gi    35%      62   34M    0%   /System/Volumes/Update/SFR/mnt1
+/dev/disk3s1     228Gi    12Gi    28Gi    31%    404k  296M    0%   /System/Volumes/Update/mnt1
+
+Memory Usage:
+Processes: 471 total, 2 running, 469 sleeping, 2193 threads 
+2025/05/04 13:16:35
+Load Avg: 1.59, 1.56, 1.50 
+CPU usage: 5.69% user, 11.38% sys, 82.92% idle 
+SharedLibs: 469M resident, 86M data, 30M linkedit.
+MemRegions: 225570 total, 2580M resident, 245M private, 1317M shared.
+PhysMem: 7451M used (1399M wired, 1076M compressor), 153M unused.
+VM: 197T vsize, 4915M framework vsize, 313879(0) swapins, 418704(0) swapouts.
+Networks: packets: 18594288/21G in, 3086177/891M out.
+Disks: 19673808/558G read, 6892719/146G written.
