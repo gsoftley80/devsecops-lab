@@ -1,0 +1,4 @@
+FROM ubuntu:latest
+RUN mkdir /logs
+CMD ["/bin/bash", "-c", "echo Hello > /logs/output.txt && cat /logs/output.txt"]
+
