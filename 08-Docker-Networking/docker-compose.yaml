@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+  backend:
+    image: busybox
+    command: sh -c "while true; do echo Backend running; sleep 10; done"
+
