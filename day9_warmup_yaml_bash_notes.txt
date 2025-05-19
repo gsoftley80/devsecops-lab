@@ -1,0 +1,75 @@
+
+Day 9 – YAML + Bash Warm-Up Summary
+====================================
+
+✅ Focus Areas:
+---------------
+- YAML syntax and Docker Compose
+- Bash scripting with input validation and file counting
+
+📄 YAML Warm-Up Fix:
+---------------------
+**Original Issue:**
+```yaml
+- NGINX_PORT: = 80
+```
+
+**Fixed Version:**
+```yaml
+version: '3'
+services:
+  frontend:
+    image: nginx
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_HOST=localhost
+      - NGINX_PORT=80
+```
+
+🧠 Why:
+- YAML does not support `=` in key-value mappings inside lists
+- `- KEY=value` format is correct for Docker Compose `environment`
+
+📂 Bash Warm-Up:
+------------------
+**Task:** Write a script that:
+1. Takes a directory as an argument
+2. Counts only files in that directory
+3. Prints the full path and file count
+
+**Script: `file_count.sh`**
+```bash
+#!/bin/bash
+
+directory=$1
+
+# Check if directory exists
+if [ ! -d "$directory" ]; then
+  echo "Error: Directory not found!"
+  exit 1
+fi
+
+# Count files only (not directories)
+file_count=$(find "$directory" -type f | wc -l)
+
+# Print results
+echo "Directory: $directory"
+echo "Files: $file_count"
+```
+
+**Usage:**
+```bash
+chmod +x file_count.sh
+./file_count.sh ~/Downloads
+```
+
+🧠 Breakdown:
+- `$1` = first argument from the terminal
+- `if [ ! -d "$directory" ]` = safety check
+- `find "$directory" -type f` = find only files
+- `wc -l` = count how many
+- `echo` = display results
+
+✅ This script simulates file-check automation you'll use in real CI/CD pipelines or cleanup jobs.
+

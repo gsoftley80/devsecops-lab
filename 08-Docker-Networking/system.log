@@ -1,0 +1,26 @@
+=== System Report for Thu  8 May 2025 20:01:10 BST ===
+20:01  up  2:56, 2 users, load averages: 1.66 1.64 1.98
+Mach Virtual Memory Statistics: (page size of 16384 bytes)
+Pages free:                                4354.
+Pages active:                            136840.
+Pages inactive:                          135410.
+Pages speculative:                          546.
+Pages throttled:                              0.
+Pages wired down:                         84503.
+Pages purgeable:                          17905.
+"Translation faults":                   9311504.
+Pages copy-on-write:                     464849.
+Pages zero filled:                      3361738.
+Pages reactivated:                      1985191.
+Pages purged:                            446637.
+File-backed pages:                        79194.
+Anonymous pages:                         193602.
+Pages stored in compressor:              295618.
+Pages occupied by compressor:            124682.
+Decompressions:                         1018468.
+Compressions:                           1524319.
+Pageins:                                 601570.
+Pageouts:                                  8840.
+Swapins:                                      0.
+Swapouts:                                     0.
+
